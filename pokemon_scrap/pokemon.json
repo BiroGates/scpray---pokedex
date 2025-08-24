@@ -1,39 +1,35 @@
 [
-{"name": "Bulbasaur", "url": "https://pokemondb.net/pokedex/bulbasaur", "number": 1, "sizeInCm": 70.0, "weigthInKg": "0.7", "type": ["Grass", "Poison"]},
-{"name": "Wartortle", "url": "https://pokemondb.net/pokedex/wartortle", "number": 8, "sizeInCm": 100.0, "weigthInKg": "1.0", "type": ["Water"]},
-{"name": "Squirtle", "url": "https://pokemondb.net/pokedex/squirtle", "number": 7, "sizeInCm": 50.0, "weigthInKg": "0.5", "type": ["Water"]},
-{"name": "Charizard", "url": "https://pokemondb.net/pokedex/charizard", "number": 6, "sizeInCm": 170.0, "weigthInKg": "1.7", "type": ["Fire", "Flying", "Fire", "Dragon", "Fire", "Flying"]},
-{"name": "Charmeleon", "url": "https://pokemondb.net/pokedex/charmeleon", "number": 5, "sizeInCm": 110.0, "weigthInKg": "1.1", "type": ["Fire"]},
-{"name": "Charmander", "url": "https://pokemondb.net/pokedex/charmander", "number": 4, "sizeInCm": 60.0, "weigthInKg": "0.6", "type": ["Fire"]},
-{"name": "Venusaur", "url": "https://pokemondb.net/pokedex/venusaur", "number": 3, "sizeInCm": 200.0, "weigthInKg": "2.0", "type": ["Grass", "Poison", "Grass", "Poison"]},
-{"name": "Ivysaur", "url": "https://pokemondb.net/pokedex/ivysaur", "number": 2, "sizeInCm": 100.0, "weigthInKg": "1.0", "type": ["Grass", "Poison"]}
-][
-
-][
-{"name": "Bulbasaur", "url": "https://pokemondb.net/pokedex/bulbasaur", "number": 1, "sizeInCm": 70.0, "weigthInKg": "0.7", "type": ["Grass", "Poison"]},
-{"name": "Wartortle", "url": "https://pokemondb.net/pokedex/wartortle", "number": 8, "sizeInCm": 100.0, "weigthInKg": "1.0", "type": ["Water"]},
-{"name": "Squirtle", "url": "https://pokemondb.net/pokedex/squirtle", "number": 7, "sizeInCm": 50.0, "weigthInKg": "0.5", "type": ["Water"]},
-{"name": "Charizard", "url": "https://pokemondb.net/pokedex/charizard", "number": 6, "sizeInCm": 170.0, "weigthInKg": "1.7", "type": ["Fire", "Flying", "Fire", "Dragon", "Fire", "Flying"]},
-{"name": "Charmeleon", "url": "https://pokemondb.net/pokedex/charmeleon", "number": 5, "sizeInCm": 110.0, "weigthInKg": "1.1", "type": ["Fire"]},
-{"name": "Charmander", "url": "https://pokemondb.net/pokedex/charmander", "number": 4, "sizeInCm": 60.0, "weigthInKg": "0.6", "type": ["Fire"]},
-{"name": "Venusaur", "url": "https://pokemondb.net/pokedex/venusaur", "number": 3, "sizeInCm": 200.0, "weigthInKg": "2.0", "type": ["Grass", "Poison", "Grass", "Poison"]},
-{"name": "Ivysaur", "url": "https://pokemondb.net/pokedex/ivysaur", "number": 2, "sizeInCm": 100.0, "weigthInKg": "1.0", "type": ["Grass", "Poison"]}
-][
-{"name": "Bulbasaur", "url": "https://pokemondb.net/pokedex/bulbasaur", "number": 1, "sizeInCm": 70.0, "weigthInKg": "0.7", "type": ["Grass", "Poison"]},
-{"name": "Wartortle", "url": "https://pokemondb.net/pokedex/wartortle", "number": 8, "sizeInCm": 100.0, "weigthInKg": "1.0", "type": ["Water"]},
-{"name": "Squirtle", "url": "https://pokemondb.net/pokedex/squirtle", "number": 7, "sizeInCm": 50.0, "weigthInKg": "0.5", "type": ["Water"]},
-{"name": "Charizard", "url": "https://pokemondb.net/pokedex/charizard", "number": 6, "sizeInCm": 170.0, "weigthInKg": "1.7", "type": ["Fire", "Flying", "Fire", "Dragon", "Fire", "Flying"]},
-{"name": "Charmeleon", "url": "https://pokemondb.net/pokedex/charmeleon", "number": 5, "sizeInCm": 110.0, "weigthInKg": "1.1", "type": ["Fire"]},
-{"name": "Charmander", "url": "https://pokemondb.net/pokedex/charmander", "number": 4, "sizeInCm": 60.0, "weigthInKg": "0.6", "type": ["Fire"]},
-{"name": "Venusaur", "url": "https://pokemondb.net/pokedex/venusaur", "number": 3, "sizeInCm": 200.0, "weigthInKg": "2.0", "type": ["Grass", "Poison", "Grass", "Poison"]},
-{"name": "Ivysaur", "url": "https://pokemondb.net/pokedex/ivysaur", "number": 2, "sizeInCm": 100.0, "weigthInKg": "1.0", "type": ["Grass", "Poison"]}
-][
-{"name": "Bulbasaur", "url": "https://pokemondb.net/pokedex/bulbasaur", "number": 1, "sizeInCm": 70.0, "weigthInKg": "0.7", "type": ["Grass", "Poison"]},
-{"name": "Wartortle", "url": "https://pokemondb.net/pokedex/wartortle", "number": 8, "sizeInCm": 100.0, "weigthInKg": "1.0", "type": ["Water"]},
-{"name": "Squirtle", "url": "https://pokemondb.net/pokedex/squirtle", "number": 7, "sizeInCm": 50.0, "weigthInKg": "0.5", "type": ["Water"]},
-{"name": "Charizard", "url": "https://pokemondb.net/pokedex/charizard", "number": 6, "sizeInCm": 170.0, "weigthInKg": "1.7", "type": ["Fire", "Flying", "Fire", "Dragon", "Fire", "Flying"]},
-{"name": "Charmeleon", "url": "https://pokemondb.net/pokedex/charmeleon", "number": 5, "sizeInCm": 110.0, "weigthInKg": "1.1", "type": ["Fire"]},
-{"name": "Charmander", "url": "https://pokemondb.net/pokedex/charmander", "number": 4, "sizeInCm": 60.0, "weigthInKg": "0.6", "type": ["Fire"]},
-{"name": "Venusaur", "url": "https://pokemondb.net/pokedex/venusaur", "number": 3, "sizeInCm": 200.0, "weigthInKg": "2.0", "type": ["Grass", "Poison", "Grass", "Poison"]},
-{"name": "Ivysaur", "url": "https://pokemondb.net/pokedex/ivysaur", "number": 2, "sizeInCm": 100.0, "weigthInKg": "1.0", "type": ["Grass", "Poison"]}
-]
+{"name": "Bulbasaur"},
+{"name": "Golem"},
+{"name": "Graveler"},
+{"name": "Geodude"},
+{"name": "Tentacruel"},
+{"name": "Tentacool"},
+{"name": "Victreebel"},
+{"name": "Weepinbell"},
+{"name": "Bellsprout"},
+{"name": "Machamp"},
+{"name": "Machoke"},
+{"name": "Machop"},
+{"name": "Alakazam"},
+{"name": "Kadabra"},
+{"name": "Abra"},
+{"name": "Poliwrath"},
+{"name": "Pecharunt"},
+{"name": "Terapagos"}[
+{"name": "Bulbasaur"},
+{"name": "Golem"},
+{"name": "Graveler"},
+{"name": "Geodude"},
+{"name": "Tentacruel"},
+{"name": "Tentacool"},
+{"name": "Victreebel"},
+{"name": "Weepinbell"},
+{"name": "Bellsprout"},
+{"name": "Machamp"},
+{"name": "Machoke"},
+{"name": "Machop"},
+{"name": "Alakazam"},
+{"name": "Kadabra"},
+{"name": "Abra"},
+{"name": "Poliwrath"}

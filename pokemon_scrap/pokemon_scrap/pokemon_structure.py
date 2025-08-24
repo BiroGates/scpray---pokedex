@@ -41,7 +41,6 @@ class PokemonEvolution():
     sizeInCm: int
     weight: int 
     type: List[PokemonType]
-    evolutions: any
     skills: List[PokemonSkill]
     effectiveness: PokemonEffectiveness
     level: str
@@ -57,6 +56,7 @@ class Pokemon:
     weight: int 
     type: List[PokemonType]
     evolutions: List[PokemonEvolution]
+    evolutionsNames: List[str]
     skills: List[PokemonSkill]
     effectiveness: PokemonEffectiveness
 
