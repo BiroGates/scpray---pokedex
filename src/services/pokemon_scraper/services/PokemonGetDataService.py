@@ -1,0 +1,60 @@
+import re
+from scrapy.http import Response
+
+from pokemon_scraper.entity.Pokemon import Pokemon
+
+class PokemonGetDataService:
+    baseUrl = "https://pokemondb.net/pokedex/"
+
+    def __init__(self, response: Response, logger, pokemon: Pokemon):
+        self.response = response
+        self.logger = logger
+        self.pokemon = pokemon
+
+    def handle(self) -> Pokemon:
+        self.pokemon.number = self._getNumber(self.response)
+        self.pokemon.name = self._getName(self.response)
+        self.pokemon.url = self.baseUrl + self.pokemon.name
+        self.pokemon.sizeInCm = self._getSizeInCm(self.response)
+        self.pokemon.weight = self._getWeight(self.response)
+        self.pokemon.type = self._getType(self.response)
+        self.pokemon.evolutionsNames = self.getEvolutions(self.response)
+
+        return self.pokemon
+
+    def _getName(self, response):
+        name = response.css("main h1::text").get()
+        self.logger.info(f"NAME: {name}")
+        return name
+
+    def _getNumber(self, response):
+        number = response.css("strong::text").get()
+        self.logger.info(f"NUMBER: {number}")
+        return number
+
+    def _getSizeInCm(self, response):
+        size = response.css("table.vitals-table tr:contains('Height') td::text").get()
+        treatedSize = round(float(re.sub(r'\s[a-z]', '', size.split(' ')[0])) * 100, 2)
+        self.logger.info(f"SIZE: {treatedSize:.2f}")
+        return treatedSize
+
+    def _getWeight(self, response):
+        weight = response.css("table.vitals-table tr:contains('Weight') td::text").get()
+        treatedWeight = re.sub(r'\s[a-z]', '', weight.split(' ')[0])
+        self.logger.info(f"WEIGHT: {treatedWeight}")
+        return treatedWeight
+
+    def _getType(self, response):
+        type_ = response.css("table.vitals-table td a.type-icon::text").getall()
+        self.logger.info(f"TYPE: {type_}")
+        return type_
+
+    def getEvolutions(self, response):
+        evolutionNames = response.css("span.infocard-lg-data a.ent-name::text").getall()
+        payload = [];
+
+        cards = response.css('div.infocard').getall();
+        self.logger.info(f"CARDS: {cards}");
+
+        
+        return payload

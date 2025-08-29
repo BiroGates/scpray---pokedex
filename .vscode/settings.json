@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./pokemon_scrap/src/entity",
+        "./pokemon_scrap/src/entity"
+    ]
+}
