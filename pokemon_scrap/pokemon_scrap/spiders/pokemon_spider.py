@@ -91,8 +91,6 @@ class PokemonService:
         payload = [];
 
         cards = response.css('div.infocard').getall();
-
-        for card in
         self.logger.info(f"CARDS: {cards}");
 
         
