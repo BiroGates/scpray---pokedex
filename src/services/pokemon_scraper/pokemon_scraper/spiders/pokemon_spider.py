@@ -1,4 +1,3 @@
-import re
 from scrapy.http import Response
 import scrapy
 
@@ -9,19 +8,18 @@ class PokemonSpider(scrapy.Spider):
     name = "poke"
     start_urls = ["https://pokemondb.net/pokedex/all"]
     baseUrl = "https://pokemondb.net/pokedex/"
+    limit = 10;
 
     def parse(self, response: Response):
         pokemonNames = response.css("a.ent-name::text").getall()
+        
         i = 0;
-
         for name in pokemonNames:
-            if i > 10:
-                break;
             i+=1;
-            next_page = f"https://pokemondb.net/pokedex/{name.lower()}"
-
+            if i > self.limit:
+                break;
             yield response.follow(
-                next_page,
+                self.baseUrl + name,
                 callback=self.getPokemonInfo,
                 meta={"logger": self.logger},
                 dont_filter=True
@@ -32,6 +30,14 @@ class PokemonSpider(scrapy.Spider):
         service = PokemonGetDataService(response, logger, Pokemon())
 
         pokemon = service.handle()
+
         yield {
             "name": pokemon.name,
         };
+
+    def getPokemonSkills(self, response: Response):
+        logger = response.meta["logger"];
+        pokemon = response.meta["pokemon"];
+        service = PokemonGetDataService(response, logger, Pokemon())
+
+        pokemon = service.handle()
