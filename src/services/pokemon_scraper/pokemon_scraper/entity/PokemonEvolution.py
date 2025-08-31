@@ -7,13 +7,8 @@ from .PokemonEffectiveness import PokemonEffectiveness;
 
 class PokemonEvolution():    
     number: int
-    url: str
-    name: str
-    sizeInCm: int
-    weight: int 
-    type: List[PokemonType]
-    skills: List[PokemonSkill]
-    effectiveness: PokemonEffectiveness
     level: str
-    item: str    
+    item: str
+    name: str
+    url: str
 

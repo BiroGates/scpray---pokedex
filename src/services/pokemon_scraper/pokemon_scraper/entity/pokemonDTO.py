@@ -1,3 +1,4 @@
+
 from typing import List
 from .PokemonType import PokemonType;
 from .PokemonEvolution import PokemonEvolution;
@@ -5,7 +6,7 @@ from .PokemonSkill import PokemonSkill;
 from .PokemonEffectiveness import PokemonEffectiveness;
 
 
-class Pokemon:
+class PokemonDTO:
     number: int
     url: str
     name: str
@@ -15,3 +16,5 @@ class Pokemon:
     evolutions: List[PokemonEvolution]
     skills: List[PokemonSkill]
     effectiveness: PokemonEffectiveness
+    evolutionsArrow: List[str]
+    skillsRaw: List[str]

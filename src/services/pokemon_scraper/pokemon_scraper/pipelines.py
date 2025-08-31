@@ -10,4 +10,5 @@ from itemadapter import ItemAdapter
 
 class PokemonScraperPipeline:
     def process_item(self, item, spider):
+        print("PASSED TRU");
         return item
